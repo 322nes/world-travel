@@ -1,20 +1,43 @@
 @font-face {
-  font-family: Lato;
-  font-weight: 900;
+  font-family: Mont;
+  font-weight: 500;
   font-style: normal;
-  src: local("Lato"),
-      url("../fonts/Lato-Black.woff2") format('woff2'),
-      url("../fonts/Lato-Black.woff") format('woff'),
-      url("../fonts/Lato-Black.eot") format('eot');
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-medium.woff2") format('woff2'),
+    url("../fonts/Montserrat-medium.woff") format('woff'),
+    url("../fonts/Montserrat-medium.eot") format('eot');
   font-display: swap;
 }
+
 @font-face {
-  font-family: ;
-  font-weight: ;
-  font-style: ;
-  src: local(""),
-      url("../") format('woff2'),
-      url("../") format('woff'),
-      url("../") format('eot');
+  font-family: Mont;
+  font-weight: 600;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-SemiBold.woff2") format('woff2'),
+    url("../fonts/Montserrat-SemiBold.woff") format('woff'),
+    url("../fonts/Montserrat-SemiBold.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mont;
+  font-weight: 700;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-Bold.woff2") format('woff2'),
+    url("../fonts/Montserrat-Bold.woff") format('woff'),
+    url("../fonts/Montserrat-Bold.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mont;
+  font-weight: 900;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-Black.woff2") format('woff2'),
+    url("../fonts/Montserrat-Black.woff") format('woff'),
+    url("../fonts/Montserrat-Black.eot") format('eot');
   font-display: swap;
 }
