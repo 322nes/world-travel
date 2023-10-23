@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
@@ -252,11 +253,40 @@
 
     </header>
     <main class="main">
-      <h2>HELLO</h2>
+
+      <section class="main__slider">
+        <div class="main__slider-container">
+          <h2>Популярные экскурсии</h2>
+          <div class="slider-prev"></div>
+          <div class="slider-wrapper">
+            <div class="slider-item">
+              <img src="images/ex1.jpg" alt="">
+            </div>
+            <div class="slider-item">
+              <img src="images/ex2.jpg" alt="">
+            </div>
+            <div class="slider-item">
+              <img src="images/ex3.jpg" alt="">
+            </div>
+            <div class="slider-item">
+              <img src="images/ex4.jpg" alt="">
+            </div>
+            <div class="slider-item">
+              <img src="images/ex5.jpg" alt="">
+            </div>
+          </div>
+          <div class="slider-next"></div>
+          <div class="slider-scrollbar"></div>
+        </div>
+      </section>
+
     </main>
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/slider.js"></script>
 <script src="js/main.js"></script>
 
 </html>
