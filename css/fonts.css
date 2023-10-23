@@ -1,11 +1,22 @@
 @font-face {
   font-family: Mont;
+  font-weight: 400;
+  font-style: normal;
+  src: local("Montserrat"),
+    url("../fonts/Montserrat-Regular.woff2") format('woff2'),
+    url("../fonts/Montserrat-Regular.woff") format('woff'),
+    url("../fonts/Montserrat-Regular.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Mont;
   font-weight: 500;
   font-style: normal;
   src: local("Montserrat"),
-    url("../fonts/Montserrat-medium.woff2") format('woff2'),
-    url("../fonts/Montserrat-medium.woff") format('woff'),
-    url("../fonts/Montserrat-medium.eot") format('eot');
+    url("../fonts/Montserrat-Medium.woff2") format('woff2'),
+    url("../fonts/Montserrat-Medium.woff") format('woff'),
+    url("../fonts/Montserrat-Medium.eot") format('eot');
   font-display: swap;
 }
 
